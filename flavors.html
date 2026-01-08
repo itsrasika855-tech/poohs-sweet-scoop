@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flavors</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fffdf7;
+      color: #333;
+    }
+
+    /* Stylish centered title */
+    .page-title {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      color: #e11d48;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+      letter-spacing: 2px;
+    }
+
+    /* Grid of flavor cards */
+    .flavor-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 30px;
+    }
+
+    .flavor-card {
+      text-align: center;
+      width: 200px;
+    }
+
+    .flavor-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .flavor-card h3 {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    .flavor-card a {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 12px;
+      background-color: #e11d48;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .flavor-card a:hover {
+      background-color: #c7153d;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="page-title">Our Flavors</h1>
+
+
+  <div class="flavor-grid">
+    <div class="flavor-card">
+      <img src="flavor1.png" alt="Chocolate Flavor">
+   
+   <a href="buy.html" class="buy-now-button">Buy Now</a>
+    </div>
+    <div class="flavor-card">
+      <img src="flavor2.png" alt="Strawberry Flavor">
+    <a href="buy.html" class="buy-now-button">Buy Now</a>>
+    
+    </div>
+    <div class="flavor-card">
+      <img src="flavor3.png" alt="Vanilla Flavor">
+    
+     <a href="buy.html" class="buy-now-button">Buy Now</a>
+    </div>
+     <div class="flavor-card">
+      <img src="flavor4.png" alt="Vanilla Flavor">
+ <a href="buy.html" class="buy-now-button">Buy Now</a>
+    </div>
+    <!-- Add more flavors here -->
+  </div>
+
+</body>
+</html>
